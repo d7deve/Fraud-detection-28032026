@@ -3,6 +3,8 @@
 ## 📌 Overview
 This project focuses on analyzing transaction data to identify fraud patterns using SQL and Power BI. The goal is to uncover key insights such as high-risk categories, customer behavior, and transaction trends.
 
+<img width="1317" height="757" alt="image" src="https://github.com/user-attachments/assets/bf100e07-cd79-454a-804e-322ece2cc01e" />
+
 ---
 
 ## 🛠️ Tools & Technologies
@@ -91,5 +93,6 @@ Total Fraud = SUM(bs140513_032310[fraud])
 Fraud Rate % = 
 DIVIDE([Total Fraud], [Total Transactions], 0) * 100
 
-<img width="1317" height="757" alt="image" src="https://github.com/user-attachments/assets/acfa7335-90f4-4a2d-9f33-7727e39ba335" />
+
+
 
