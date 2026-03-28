@@ -85,7 +85,11 @@ The dataset contains transaction-level data with the following columns:
 ```DAX
 Total Transactions = COUNTROWS(bs140513_032310)
 
+
 Total Fraud = SUM(bs140513_032310[fraud])
 
 Fraud Rate % = 
 DIVIDE([Total Fraud], [Total Transactions], 0) * 100
+
+<img width="1317" height="757" alt="image" src="https://github.com/user-attachments/assets/acfa7335-90f4-4a2d-9f33-7727e39ba335" />
+
